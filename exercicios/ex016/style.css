@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #217373, #173540);
+}
+
+main {
+    background-color: white;
+    border-radius: 10px; /* QUINAS DO FUNDO*/ 
+    box-shadow: 5px 5px 15px #3d3d3dbb;
+    width: 600px;
+    padding: 10px; /* ACOLCHOAMENTO DE FUNDO*/
+    margin: auto;
+}
+
+p{
+    text-align: justify;
+}
+
+h1 {
+    color: #84B026;
+    text-align: center;
+    text-shadow: 1px 1px 2px #3d3d3dbe;
+}
+
+h2 {
+    color: #161F30;
+}

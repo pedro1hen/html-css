@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'hand';
+            src: url(fontes/Handmade.otf) format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Love';
+            src: url(fontes/Heart^Freaking^Tastic.otf) format('opentype'), url(fontes/Heart^Freaking^Tastic.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        /*
+            Tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (apple advanced typography)
+            - svg
+        */
+        body {
+            font-family: 'hand', Helvetica, sans-serif;
+            font-size: 30px;
+        }
+
+        h1 {
+            font-family: 'Love', Times, serif;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ea, voluptatibus, veniam quae minus officia blanditiis nihil ducimus, harum quaerat illo similique dolorum. Nesciunt veniam dolorum facere ipsum officia dolorem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, fugiat similique consequatur laboriosam totam doloribus eveniet possimus facilis culpa iusto quidem vero reiciendis minus, dolorum aliquam vitae voluptatum sunt pariatur.</p>
+</body>
+</html>
